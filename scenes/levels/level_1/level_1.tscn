@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://dyget7i78in1b"]
+
+[ext_resource type="PackedScene" uid="uid://c653g13uy288" path="res://scenes/items/backgrounds/blue_background.tscn" id="1_pdm5n"]
+
+[node name="Level1" type="Node2D"]
+
+[node name="BlueBackground" parent="." instance=ExtResource("1_pdm5n")]
