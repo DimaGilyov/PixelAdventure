@@ -27,6 +27,7 @@ sources/0 = SubResource("TileSetAtlasSource_ybom0")
 [node name="BlueBackground" type="ParallaxBackground"]
 
 [node name="ParallaxLayer" type="ParallaxLayer" parent="."]
+texture_repeat = 3
 
 [node name="TileMap" type="TileMap" parent="."]
 tile_set = SubResource("TileSet_afgv6")
