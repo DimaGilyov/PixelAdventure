@@ -182,7 +182,6 @@ animations = [{
 }]
 
 [node name="NinjaFrog" type="CharacterBody2D"]
-scale = Vector2(5, 5)
 script = ExtResource("1_ln56a")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
@@ -199,7 +198,9 @@ frame = 8
 frame_progress = 0.201098
 
 [node name="Camera2D" type="Camera2D" parent="."]
+zoom = Vector2(3, 3)
 process_callback = 0
 position_smoothing_enabled = true
 drag_horizontal_enabled = true
 drag_vertical_enabled = true
+drag_vertical_offset = -1.0
