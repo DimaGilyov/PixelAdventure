@@ -1,7 +1,7 @@
 [gd_scene load_steps=6 format=3 uid="uid://dyget7i78in1b"]
 
 [ext_resource type="PackedScene" uid="uid://dmcom0q6prwhq" path="res://scenes/elements/characters/ninja_frog/ninja_frog.tscn" id="1_6gnex"]
-[ext_resource type="PackedScene" uid="uid://c653g13uy288" path="res://scenes/items/backgrounds/blue_background.tscn" id="1_pdm5n"]
+[ext_resource type="PackedScene" uid="uid://c653g13uy288" path="res://scenes/elements/backgrounds/blue_background.tscn" id="1_u7x78"]
 [ext_resource type="Texture2D" uid="uid://bprdd68pqly8g" path="res://assets/images/Terrain/Terrain (16x16).png" id="3_ba6ls"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_gml7v"]
@@ -475,7 +475,7 @@ sources/0 = SubResource("TileSetAtlasSource_gml7v")
 [node name="NinjaFrog" parent="." instance=ExtResource("1_6gnex")]
 position = Vector2(142, 874)
 
-[node name="BlueBackground" parent="." instance=ExtResource("1_pdm5n")]
+[node name="BlueBackground" parent="." instance=ExtResource("1_u7x78")]
 
 [node name="TileMap" type="TileMap" parent="."]
 position = Vector2(122, 2660)
