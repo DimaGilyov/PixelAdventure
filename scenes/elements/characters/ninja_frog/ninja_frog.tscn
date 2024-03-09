@@ -182,6 +182,7 @@ animations = [{
 }]
 
 [node name="NinjaFrog" type="CharacterBody2D"]
+top_level = true
 script = ExtResource("1_ln56a")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
