@@ -1,8 +1,0 @@
-[gd_scene load_steps=2 format=3 uid="uid://dmcom0q6prwhq"]
-
-[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_07x13"]
-
-[node name="NinjaFrog" type="CharacterBody2D"]
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-shape = SubResource("CapsuleShape2D_07x13")
